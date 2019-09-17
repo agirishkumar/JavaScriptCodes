@@ -11,5 +11,13 @@ for(let i = totalitems; i>=0;i--){
 console.log(backwards);
 return backwards.join('');
 }
-
 console.log(reverse('I am Girish'));
+
+function reverse2(str){
+  return str.split('').reverse().join('');
+}
+
+console.log(reverse2('I am Girish'));
+
+const reverse3 = str => str.split('').reverse().join('');
+console.log(reverse3('I am Girish'));
